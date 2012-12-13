@@ -1,8 +1,8 @@
 Tasks::Application.routes.draw do
-  root :to => 'Tasks/index'
-  get "tasks/index"
+  root :to => 'Tasks#index'
+  #get "tasks/index"
 
-    resources :tasks
+  resources :tasks
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
